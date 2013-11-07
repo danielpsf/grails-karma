@@ -27,3 +27,5 @@ There are only a few items, followed by a <code>// can't touch this</code> comme
 ## About this project
 This is just the first version of this plugin and we are couting on your feedback to make this plugin better! 
 Don't hesitate to send us an e-mail, create an issue on GitHub or, even better, submit a pull request. 
+
+Build status [![Build Status](https://travis-ci.org/danielpsf/grails-karma.png?branch=master)](https://travis-ci.org/danielpsf/grails-karma)
