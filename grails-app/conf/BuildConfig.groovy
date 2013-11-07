@@ -34,5 +34,4 @@ grails.project.dependency.resolution = {
         }
 
 		test ":spock:0.7"
-    }
 }
