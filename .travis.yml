@@ -19,7 +19,6 @@ before_install:
 - source ~/.gvm/bin/gvm-init.sh
 - echo groovy --version
 - gvm install groovy 2.1.0 || true
-- gvm use groovy 2.1.0
 - gvm install grails $GRAILS_VERSION || true
 
 script: grails clean && grails upgrade --non-interactive && grails test-app --non-interactive --stacktrace --verbose
