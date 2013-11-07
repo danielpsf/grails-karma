@@ -17,7 +17,7 @@ before_install:
 - ~/install_gvm.sh
 - echo "gvm_auto_answer=true" > ~/.gvm/etc/config
 - source ~/.gvm/bin/gvm-init.sh
-- groovy --version
+- echo groovy --version
 - gvm install groovy 2.1.0 || true
 - gvm use groovy 2.1.0
 - gvm install grails $GRAILS_VERSION || true
