@@ -22,4 +22,4 @@ before_install:
 - gvm use groovy 2.1.0
 - gvm install grails $GRAILS_VERSION || true
 
-script: grails clean && grails upgrade --non-interactive && grails test-app --non-interactive --stacktrace
+script: grails clean && grails upgrade --non-interactive && grails test-app --non-interactive --stacktrace --verbose
