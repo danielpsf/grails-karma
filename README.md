@@ -3,7 +3,7 @@ grails-karma
 
 [![Build Status](https://travis-ci.org/danielpsf/grails-karma.png?branch=master)](https://travis-ci.org/danielpsf/grails-karma)
 
-## Description:
+## Description
 Run javascript tests in the Grails build!
 
 The main goal for Karma is to bring a productive environment for javascript testing. 
